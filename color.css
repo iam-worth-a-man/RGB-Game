@@ -1,0 +1,72 @@
+body {
+	background: #232323;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.all{
+	background: purple;
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 10%;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+}
+
+#head{
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal;
+	line-height: 0.1;
+	padding: 30px 0;
+}
+
+#he{
+	color: black;
+	display: inline-block;
+	width: 20%;
+}
+
+#str{
+	background: white;
+	height: 30px;
+	text-align: center;
+
+}
+
+.selected{
+	color: white;
+	background: steelblue;
+}
+
+#ans{
+	font-size: 50px;
+}
+
+button {
+	text-transform: uppercase;
+	border: none;
+	background: none;
+	font-weight: 700;
+	color: steelblue;
+	height: 100%;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	outline: none;
+}
+
+button:hover{
+	color: white;
+	background: steelblue;
+}
